@@ -1,0 +1,15 @@
+﻿<Properties>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Codes\taping.cs">
+    <Files>
+      <File FileName="Assets\Codes\taping.cs" Line="24" Column="65" />
+      <File FileName="Assets\Codes\tap.cs" Line="1" Column="1" />
+      <File FileName="Assets\Codes\timer.cs" Line="1" Column="1" />
+      <File FileName="Assets\Codes\touch_two_C.cs" Line="1" Column="1" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>

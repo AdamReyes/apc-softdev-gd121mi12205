@@ -3,6 +3,8 @@ using System.Collections;
 
 public class tap : MonoBehaviour {
 
+	Vector2 move;
+
 	// Use this for initialization
 	void Start () {
 	
@@ -21,8 +23,8 @@ public class tap : MonoBehaviour {
 			if (touch.phase == TouchPhase.Ended && touch.tapCount == 1)
 			{
 				// Touch are screens location. Convert to world
-				Vector3 position = Camera.main.ScreenToWorldPoint(touch.position);
-				
+				move = new Vector2 (touch.position.x,touch.position.y);
+				this.transform.transform.position = move;
 				// Effect for feedback
 				//SpecialEffectsScript.MakeExplosion((position));
 			}
