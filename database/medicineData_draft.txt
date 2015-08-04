@@ -1,0 +1,15 @@
+
+Types of Medicine:
+
+Liquid
+Tablet
+Capsule
+Topical Medicine // cream or ointments
+Suppositories
+Drops
+Inhalers
+Injections
+Implant // patches
+Buccal // Sublingual Tablet
+
+List of Medicine and Description
