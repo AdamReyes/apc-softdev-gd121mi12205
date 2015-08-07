@@ -16,4 +16,7 @@ public class individual_timer : MonoBehaviour {
 	}
 
 	// Starts Countdown for customers
+	void Countdown () {
+
+	}
 }
