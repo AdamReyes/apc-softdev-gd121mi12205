@@ -1,7 +1,7 @@
 
 Types of Medicine:
 
-Liquid
+Liquid //syrup
 Tablet
 Capsule
 Topical Medicine // cream or ointments
@@ -13,3 +13,41 @@ Implant // patches
 Buccal // Sublingual Tablet
 
 List of Medicine and Description
+//Allergies
+	*Loratidine tab 10 mg - cures Allergies
+//Bandages
+	* Mediplast Bantam Strips (Implant) - bandages 
+//Cold and Flu
+	*Paracetamol + Phenyleprine + Chlorpheniramine (COLDZEP) (Tablet) -Relief of runny nose, nasal congestion, post-nasal drip, itchy 	& watery eyes, fever, body pains and headache associated with common cold, flu, upper respiratory infections, allergic rhinitis, and 	sinusitis
+//Cough and Cold remedies
+	*Bromhexine HCL syrup 4 mg/5mL (MUCOHEX) (Liquid) -Common cold, flu & resp tract infection associated w/ excessive & tenacious 	bronchial secretions.
+	*Carbocisteine drops 50 mg/mL (CISFLEM) (Drops) -All types of cough, chronic & acute bronchitis, cough induced sinusitis, bronchial 	asthma, emphysema, treatment of resp tract disorders associated w/ excessive mucus
+//Diarrhea
+	*LOPERAMIDE C2MG (TGP-LOPER)-100s (Capsule)- cures diarrhea
+//Eczema
+	*Betamethasone cream 10g BIG (BETNASONE) (Topical Medicine) -For topical administration for the treatment of skin disorders.
+//For diziness and vomiting
+	*Dimenhydrinate tab 25 mg (Tablet) - Prevention & treatment of nausea & vomiting, vertigo & dizziness.
+// Hypertension
+	*Amlodipine Besilate T10mg (AMLOREX) (Tablet) - hypertension and prophylaxis of angina
+//Ashthma
+	*Salbu+Brom+Guai syr 100mL (PECOF) (Liquid) -for the relief of broncho pulmonary disorders e.g., bronchial asthma, emphysema, 	atelectasis, acute and chronic bronchitis, pulmonary TB, whooping cough, pneumonia and other broncho spastic conditions.
+	*Terbutaline tab 2.5 mg (Tablet) -Terbutaline Sulfate Injection, USP is indicated for the prevention and reversal of bronchospasm 	in patients 12 years of age and older with asthma and reversible bronchospasm associated with bronchitis and emphysema.
+//Muscle Pain
+	* 	Pau Liniment 10ml(Topical Medicine) - cures muscle pain
+	* 	MENTOPAS MED PLASTER2SHEETS-80s(Implane) - cures muscle pain
+//Nauseau, vomiting
+	* 	Betahistine Dihydrochloride tab 8 mg (BETAVERT) (tablet) -  	Meniere's disease, syndrome characterized by 		attacks of vertigo, sensorineural deafness, dizziness.
+//Pimples and Boils
+	*  	FUSIDIC ACID CREAM 2PERCENT 5G-1S(Topical Medicine) - cures pimples and boils
+	* 	Mupirocin (BACTESTOP) 2percent 5g(Topical Medicine) -  	primary skin infections and secondary infections
+//Tuberculosis
+	* 	Ethambutol tab 400 mg (Tablet) - Treatment of pulmonary & extrapulmonary TB
+	* 	Isoniazid syrup 100 mg/60 mL(Liquid) -  	Prevention & treatment of pulmonary & extrapulmonary TB.
+// Vitamins
+	* 	Ascorbic + Zinc Syrup 250mL (LEMONCEE PLUS)(Liquid) -  	for the treatment and prevention of Vitamin and Zinc deficiencies, Its has the dual immunity boosting action of Vitamin C and Zinc which levels up the child\'s immunity against sickness and graver diseases such as pneumonia, diarrhea and super-viruses.
+	* 	Ascorbic acid Tab 500mg (LEMON-CEE) -  	Prevention & treatment of Vitamin C deficiency, enhance the body's natural immune function, to increase body resistance against stress, cold & other infections.
+
+
+"To be continued"
+(Source:http://www.thegenericspharmacy.com/home)
