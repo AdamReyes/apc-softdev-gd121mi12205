@@ -46,6 +46,7 @@
 	</Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\Codes\customer_interaction.cs" />
      <Compile Include="Assets\Codes\tap.cs" />
      <Compile Include="Assets\Codes\taping.cs" />
      <Compile Include="Assets\Codes\timer.cs" />

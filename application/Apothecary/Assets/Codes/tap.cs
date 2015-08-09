@@ -3,7 +3,7 @@ using System.Collections;
 
 public class tap : MonoBehaviour {
 
-	Vector2 move;
+	Vector3 move;
 
 	// Use this for initialization
 	void Start () {
@@ -20,13 +20,14 @@ public class tap : MonoBehaviour {
 			
 			// -- Tap: quick touch & release
 			// ------------------------------------------------
-			if (touch.phase == TouchPhase.Ended && touch.tapCount == 1)
+			if (touch.phase == TouchPhase.Began && touch.tapCount == 1)
 			{
 				// Touch are screens location. Convert to world
-				move = new Vector2 (touch.position.x,touch.position.y);
-				this.transform.transform.position = move;
+				move = new Vector3 (touch.position.x,touch.position.y,0);
+				this.transform.position = new Vector3 (move.x, move.y, move.z);
 				// Effect for feedback
 				//SpecialEffectsScript.MakeExplosion((position));
+
 			}
 		}
 	}

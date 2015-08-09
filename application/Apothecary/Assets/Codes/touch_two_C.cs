@@ -16,7 +16,7 @@ public class touch_two_C : MonoBehaviour {
 			Vector2 touchDeltaPosition = Input.GetTouch(0).deltaPosition;
 			
 			// Move object across XY plane
-			transform.Translate(-touchDeltaPosition.x * speed, -touchDeltaPosition.y * speed, 0);
+			transform.Translate(touchDeltaPosition.x * speed, touchDeltaPosition.y * speed, 0);
 		}
 	}
 }
