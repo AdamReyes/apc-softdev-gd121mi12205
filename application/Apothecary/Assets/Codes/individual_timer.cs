@@ -4,6 +4,7 @@ using System.Collections;
 public class individual_timer : MonoBehaviour {
 	public static float individual_time;
 	public static bool individual_time_start;
+	public static float individual_duration;
 
 	// Use this for initialization
 	void Start () {
@@ -18,7 +19,8 @@ public class individual_timer : MonoBehaviour {
 	// Starts Countdown for customers
 	void Countdown () {
 		if (individual_time_start == true) {
-
+			yield WaitForSeconds (individual_duration);
+			individual_time_start = true;
 		}
 	}
 }
