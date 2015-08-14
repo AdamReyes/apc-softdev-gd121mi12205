@@ -19,6 +19,7 @@ public class individual_timer : MonoBehaviour {
 	// Starts Countdown for customers
 	void Countdown () {
 		if (individual_time_start == true) {
+			individual_time_start = false;
 			yield WaitForSeconds (individual_duration);
 			individual_time_start = true;
 		}
