@@ -1,5 +1,5 @@
 
-Types of Medicine:
+//*Types of Medicine*//
 
 Liquid //syrup
 Tablet
@@ -12,9 +12,23 @@ Injections
 Implant // patches
 Buccal // Sublingual Tablet
 
-List of Medicine and Description
+//*List of Medicine and Description*//
+
+// Ace Inhibitors
+	*Enalapril 10mg tab (Tablet) -Treatment of hypertension & heart failure may also be given prophylactically to patients w/asympomatic left ventricular dysfuntion to delay the onset of symptomatic heart failure & to those w/left ventricular dysfunction to reduce the incidence of co
+	*Enalapril Maleate 5mg tab (Tablet) - *same as the previous*
+	*Enalapril tab 20mg (Tablet) - *same as the previous*
 //Allergies
-	*Loratidine tab 10 mg - cures Allergies
+	*Loratidine tab 10 mg (Tablet) - cures Allergies
+	*Desloratadine 2.5ml/5ml 60ml (DESLOGEN) (Liquid) - cures Allergies
+//Amoebic and Parasitic infection
+	*Mebendazole susp. 100 mg/5 mL (Liquid) - this drug is a highly effective, broad- spectrum antihelmintic indicated for the treatment of nematode infestations, including roundworm, whipworm, threadworm and hookworm. It is also effective for th etreatment of protomyxzoa infestations.
+	*Metronidazole tab 500 mg(AMIBAZOLE) (Tablet) - *same as the previous*
+	*Pyrantel Pamoate susp. 250 mg (Liquid)-this medication is used to treat intestinal worm infections such as pinworm, roundworm, and hookworm. Pyrantel belongs to a class of drugs known as antihelmintics. It works by making the worms unable to move(paralyzed) so that the body can remove them naturally in the stool. This medication may be used to self-treat pinworm infections. For other types of infections (such as roundworm, hookworm) use this product only as directed by your doctor. Do not used this medication in children younger than 2 years unless directed by the doctor.
+//Antibiotic
+	*Clarithromycin Tab 250mg (Tablet) - 	Resp tract infections eg. Otitis media, skin & soft tissue infection, leprosy, pharyngitis, tonsilitis & sinusitis
+//Bacterial Infection
+	*Amoxicillin Cap 250mg (BENEDEX) (Capsule) - 	Treatment of infections caused by susceptible organisms eg. billary tract, upper & lower resp tract infections, bone & joint infections, bronchitis, gastroentritis, mouth infections, UTI, skin & soft tissue infections, dental abscess, acute otitis media. Alternative to chloramphenicol in Salmonella infections. Gonorrhea, GI infections including typhoid & paratyphoid, severe systematic infection.
 //Bandages
 	* Mediplast Bantam Strips (Implant) - bandages 
 //Cold and Flu
@@ -26,27 +40,29 @@ List of Medicine and Description
 	*LOPERAMIDE C2MG (TGP-LOPER)-100s (Capsule)- cures diarrhea
 //Eczema
 	*Betamethasone cream 10g BIG (BETNASONE) (Topical Medicine) -For topical administration for the treatment of skin disorders.
+//Fever and muscle pain
+	*Tramadol cap 50 mg (RELIDOL) (Tablet) -Moderate to severe pain
 //For diziness and vomiting
 	*Dimenhydrinate tab 25 mg (Tablet) - Prevention & treatment of nausea & vomiting, vertigo & dizziness.
-// Hypertension
-	*Amlodipine Besilate T10mg (AMLOREX) (Tablet) - hypertension and prophylaxis of angina
+//Hypertension
+	*Amlodipine Besilate T10mg (AMLOREX) (Tablet) -hypertension and prophylaxis of angina
 //Ashthma
 	*Salbu+Brom+Guai syr 100mL (PECOF) (Liquid) -for the relief of broncho pulmonary disorders e.g., bronchial asthma, emphysema, 	atelectasis, acute and chronic bronchitis, pulmonary TB, whooping cough, pneumonia and other broncho spastic conditions.
 	*Terbutaline tab 2.5 mg (Tablet) -Terbutaline Sulfate Injection, USP is indicated for the prevention and reversal of bronchospasm 	in patients 12 years of age and older with asthma and reversible bronchospasm associated with bronchitis and emphysema.
 //Muscle Pain
-	* 	Pau Liniment 10ml(Topical Medicine) - cures muscle pain
-	* 	MENTOPAS MED PLASTER2SHEETS-80s(Implane) - cures muscle pain
+	*Pau Liniment 10ml(Topical Medicine) -cures muscle pain
+	*MENTOPAS MED PLASTER2SHEETS-80s(Implane) -cures muscle pain
 //Nauseau, vomiting
-	* 	Betahistine Dihydrochloride tab 8 mg (BETAVERT) (tablet) -  	Meniere's disease, syndrome characterized by 		attacks of vertigo, sensorineural deafness, dizziness.
+	* Betahistine Dihydrochloride tab 8 mg (BETAVERT) (tablet) -Meniere's disease, syndrome characterized by 		attacks of vertigo, sensorineural deafness, dizziness.
 //Pimples and Boils
-	*  	FUSIDIC ACID CREAM 2PERCENT 5G-1S(Topical Medicine) - cures pimples and boils
-	* 	Mupirocin (BACTESTOP) 2percent 5g(Topical Medicine) -  	primary skin infections and secondary infections
+	*FUSIDIC ACID CREAM 2PERCENT 5G-1S(Topical Medicine) -cures pimples and boils
+	*Mupirocin (BACTESTOP) 2percent 5g(Topical Medicine) -primary skin infections and secondary infections
 //Tuberculosis
-	* 	Ethambutol tab 400 mg (Tablet) - Treatment of pulmonary & extrapulmonary TB
-	* 	Isoniazid syrup 100 mg/60 mL(Liquid) -  	Prevention & treatment of pulmonary & extrapulmonary TB.
+	*Ethambutol tab 400 mg (Tablet) - Treatment of pulmonary & extrapulmonary TB
+	*Isoniazid syrup 100 mg/60 mL(Liquid) -Prevention & treatment of pulmonary & extrapulmonary TB.
 // Vitamins
-	* 	Ascorbic + Zinc Syrup 250mL (LEMONCEE PLUS)(Liquid) -  	for the treatment and prevention of Vitamin and Zinc deficiencies, Its has the dual immunity boosting action of Vitamin C and Zinc which levels up the child\'s immunity against sickness and graver diseases such as pneumonia, diarrhea and super-viruses.
-	* 	Ascorbic acid Tab 500mg (LEMON-CEE) -  	Prevention & treatment of Vitamin C deficiency, enhance the body's natural immune function, to increase body resistance against stress, cold & other infections.
+	*Ascorbic + Zinc Syrup 250mL (LEMONCEE PLUS)(Liquid) -for the treatment and prevention of Vitamin and Zinc deficiencies, Its has the dual immunity boosting action of Vitamin C and Zinc which levels up the child\'s immunity against sickness and graver diseases such as pneumonia, diarrhea and super-viruses.
+	*Ascorbic acid Tab 500mg (LEMON-CEE) -Prevention & treatment of Vitamin C deficiency, enhance the body's natural immune function, to increase body resistance against stress, cold & other infections.
 
 
 "To be continued"
