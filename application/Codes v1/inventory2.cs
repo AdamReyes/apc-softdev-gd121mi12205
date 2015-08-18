@@ -1,15 +1,66 @@
 ﻿using UnityEngine;
 using System.Collections;
 using System.Collections.Generic;
+using UnityEngine.UI;
 
 public class inventory2 : MonoBehaviour {
+
 
 	public List<GameObject> Slots = new List<GameObject>();
 	public List<med_data> datab = new List<med_data>();
 	med_database database;
 	public GameObject slots;
-	int x = -140;
+	int x = -150;//-450;
 	int y = 55;
+	public GameObject toolTip;
+	public GameObject draggedItem;
+	public bool draggingItem = false;
+	public med_data thedragItem; //dragged Item
+	public int slotIndex;
+
+	void Update() 
+	{
+		if (draggingItem) // Drag
+		{
+			Vector3 post = (Input.mousePosition - GameObject.FindGameObjectWithTag("Canvas").GetComponent<RectTransform>().localPosition);
+			draggedItem.GetComponent<RectTransform>().localPosition = new Vector3(post.x +15, post.y - 15, post.z);
+		}
+
+	}
+
+	public void showTooltip(Vector3 toolPosition, med_data datab) 
+	{
+		toolTip.SetActive (true);
+		toolTip.GetComponent<RectTransform> ().localPosition = new Vector3 (toolPosition.x, toolPosition.y + 50, toolPosition.z);
+		toolTip.transform.GetChild (0).GetComponent<Text> ().text = datab.medName; 
+		toolTip.transform.GetChild (2).GetComponent<Text> ().text = datab.medDesc; 
+
+	}
+
+	public void closeTooltip()
+	{
+		toolTip.SetActive (false);
+	}
+
+
+	public void showDraggedItem(med_data datab, int slotnumber) //drag
+	{
+		slotIndex = slotnumber;
+		closeTooltip ();
+		draggedItem.SetActive (true);
+		thedragItem = datab;
+		draggingItem = true;
+		draggedItem.GetComponent<Image>().sprite = datab.medIcon;
+	}
+
+	public void closeDraggedItem() // drag
+	{
+		draggedItem.SetActive (false);
+		draggingItem = false;
+	}
+
+
+
 
 	// Use this for initialization
 	void Start () {
@@ -18,9 +69,9 @@ public class inventory2 : MonoBehaviour {
 		database = GameObject.FindGameObjectWithTag ("Med_database").GetComponent<med_database> (); // access to the database
 
 		// the slots of the inventory
-		for (int i = 1; i < 4; i++) //  columns
+		for (int i = 1; i < 7; i++) //  columns
 		{
-			for (int k = 1; k < 7; k++) // rows
+			for (int k = 1; k < 6; k++) // rows
 			{
 				GameObject slot = (GameObject)Instantiate(slots); // copy of slots
 				slot.GetComponent<slot_script>().slotNum = slotAmount;
@@ -30,9 +81,9 @@ public class inventory2 : MonoBehaviour {
 				slot.name = "Slot" + i + "," + k; // name of slots
 				slot.GetComponent<RectTransform>().localPosition = new Vector3(x,y,0); // position of the slot
 				x = x + 55;
-				if (k == 6) 
+				if (k == 5) 
 				{
-					x = -139;
+					x = -149; //-449;
 					y = y - 55;
 				}
 				slotAmount++;
