@@ -33,6 +33,7 @@ public class inventory2 : MonoBehaviour {
 		toolTip.SetActive (true);
 		toolTip.GetComponent<RectTransform> ().localPosition = new Vector3 (toolPosition.x, toolPosition.y + 50, toolPosition.z);
 		toolTip.transform.GetChild (0).GetComponent<Text> ().text = datab.medName; 
+		//toolTip.transform.GetChild (1).GetComponent<Text> ().text = datab.medType; 
 		toolTip.transform.GetChild (2).GetComponent<Text> ().text = datab.medDesc; 
 
 	}
@@ -94,6 +95,38 @@ public class inventory2 : MonoBehaviour {
 		addMed (0);
 		addMed (1);
 		addMed (2);
+		addMed (3);
+		addMed (4);
+		addMed (5);
+		addMed (6);
+		addMed (7);
+		addMed (8);
+		addMed (9);
+		addMed (10);
+		addMed (11);
+		addMed (12);
+		addMed (13);
+		addMed (14);
+		addMed (15);
+		addMed (16);
+		addMed (17);
+		addMed (18);
+		addMed (19);
+		addMed (20);
+		addMed (21);
+		addMed (22);
+		addMed (23);
+		addMed (24);
+		addMed (25);
+		addMed (26);
+		addMed (27);
+		addMed (28);
+		addMed (29);
+		addMed (30);
+
+
+
+
 		//Debug.Log (datab [0].medName); // shows the first medicine
 
 
