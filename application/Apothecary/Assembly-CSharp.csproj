@@ -48,7 +48,9 @@
   <ItemGroup>
      <Compile Include="Assets\Codes\cursor.cs" />
      <Compile Include="Assets\Codes\customer_interaction.cs" />
+     <Compile Include="Assets\Codes\screen_button_L.cs" />
      <Compile Include="Assets\Codes\screen_button_R.cs" />
+     <Compile Include="Assets\Codes\screen_control.cs" />
      <Compile Include="Assets\Codes\tap.cs" />
      <Compile Include="Assets\Codes\taping.cs" />
      <Compile Include="Assets\Codes\timer.cs" />
