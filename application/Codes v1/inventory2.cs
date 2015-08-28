@@ -141,7 +141,7 @@ public class inventory2 : MonoBehaviour {
 		if (database.datab[i].medID == id) // the item's id
 				//Debug.Log(database.datab.Count);
 			{
-
+			
 				med_data datas = database.datab[i]; //creating new data to the item
 				//Debug.Log(datas.medName);
 				addMedEmtptySlot(datas);

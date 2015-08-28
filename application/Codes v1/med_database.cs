@@ -13,7 +13,7 @@ public class med_database : MonoBehaviour {
 
 		
 		// Ace Inhibitors
-		datab.Add(new med_data ("Enalapril 10mg tab", 0, "Treatment of hypertension & heart failure", 1, med_data.MedType.Tablet)); //Breathe Right
+		datab.Add(new med_data ("Enalapril 10mg tab", 0, "Treatment of hypertension & heart failure", 3, med_data.MedType.Tablet)); //Breathe Right
 		datab.Add(new med_data ("Enalapril Maleate", 1, "Treatment of hypertension & heart failure", 1, med_data.MedType.Tablet)); //Fisherman's Friend
 		datab.Add(new med_data ("Enalapril tab 20mg", 2, "Treatment of hypertension & heart failure", 1, med_data.MedType.Tablet));	// Vicks BabyRub
 

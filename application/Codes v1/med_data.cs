@@ -17,12 +17,8 @@ public class med_data {
 		Tablet,
 		Capsule,
 		TopicalMedicine, // cream or ointments
-		Suppositories,
 		Drops,
-		Inhalers,
-		Injections,
 		Implant, //patches
-		Buccal, //sublingual tablet
 
 	}
 	public med_data(string name, int id, string desc, int value, MedType type)

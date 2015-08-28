@@ -9,21 +9,56 @@ public class slot_script : MonoBehaviour, IPointerDownHandler, IPointerEnterHand
 	public med_data datab;
 	Image medImage;
 	inventory2 inventory;
+	Text medAmount;
 
 	// Use this for initialization
 	void Start () {
+		medAmount = gameObject.transform.GetChild (1).GetComponent<Text> ();
 		inventory = GameObject.FindGameObjectWithTag("inventory").GetComponent<inventory2>();
 		medImage = gameObject.transform.GetChild(0).GetComponent<Image>();
 	}
 	
 	// Update is called once per frame
-	void Update () {
+	void Update () 
+	{
+
 
 		if(inventory.datab[slotNum].medName != null)
 		{
 			datab = inventory.datab[slotNum];
 			medImage.enabled = true;
 			medImage.sprite = inventory.datab[slotNum].medIcon;
+
+			if(inventory.datab[slotNum].medType == med_data.MedType.Tablet) //Tablet
+			{
+				medAmount.enabled = true;
+				medAmount.text = ""+inventory.datab[slotNum].medValue;
+			}
+			if(inventory.datab[slotNum].medType == med_data.MedType.Capsule)  //Capsule
+			{
+				medAmount.enabled = true;
+				medAmount.text = ""+inventory.datab[slotNum].medValue;
+			}
+			if(inventory.datab[slotNum].medType == med_data.MedType.Liquid)  //Liquid
+			{
+				medAmount.enabled = true;
+				medAmount.text = ""+inventory.datab[slotNum].medValue;
+			}
+			if(inventory.datab[slotNum].medType == med_data.MedType.TopicalMedicine) //Topical Medicine
+			{
+				medAmount.enabled = true;
+				medAmount.text = ""+inventory.datab[slotNum].medValue;
+			}
+			if(inventory.datab[slotNum].medType == med_data.MedType.Implant)  //Implant
+			{
+				medAmount.enabled = true;
+				medAmount.text = ""+inventory.datab[slotNum].medValue;
+			}
+			if(inventory.datab[slotNum].medType == med_data.MedType.Drops) //Drops
+			{
+				medAmount.enabled = true;
+				medAmount.text = ""+inventory.datab[slotNum].medValue;
+			}
 		}
 		else 
 		{
@@ -68,6 +103,7 @@ public class slot_script : MonoBehaviour, IPointerDownHandler, IPointerEnterHand
 			inventory.showDraggedItem (inventory.datab [slotNum], slotNum);
 			inventory.datab[slotNum] = new med_data();
 			//Debug.Log ("Dragging");
+			medAmount.enabled = false;
 		}
 	
 	}
