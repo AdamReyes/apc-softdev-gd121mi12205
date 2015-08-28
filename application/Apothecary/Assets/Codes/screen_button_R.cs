@@ -14,9 +14,19 @@ public class screen_button_R : MonoBehaviour {
 	
 	}
 
-	void OnPointerDown (PointerEventData eventData) {
+	void OnMouseDown () {
 
-		transform.Translate (10, 0, 0);
+		Camera.main.transform.position = screen_control.current;
+
+		if (screen_control.center == true) {
+			screen_control.right = true;
+			screen_control.center = false;
+		}
+
+		if (screen_control.left == true) {
+			screen_control.center = true;
+			screen_control.left = false;
+		}
 
 	}
 }
