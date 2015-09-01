@@ -1,9 +1,12 @@
 ﻿<Properties>
-  <MonoDevelop.Ide.Workspace />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Codes\individual_timer.cs">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="..\Codes v3\GameManager.cs">
     <Files>
+      <File FileName="..\Codes v3\GameManager.cs" Line="1" Column="1" />
       <File FileName="Assets\Codes\individual_timer.cs" Line="9" Column="17" />
       <File FileName="Assets\Codes\timer.cs" Line="1" Column="1" />
+      <File FileName="..\Codes v3\med_data.cs" Line="1" Column="1" />
+      <File FileName="..\Codes v3\Quiz_data.cs" Line="1" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
